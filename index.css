@@ -1,0 +1,145 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+.image {
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.width{
+    width: 40vw;
+}
+.color{
+    background-color: #f0f4f5;
+    z-index:-2;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 20px;
+}
+.nav1 {
+  align-items: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.nav2 {
+  align-self: center;
+  margin-right: 20px;
+  justify-content: center;
+}
+.nav2 a {
+  margin-right: 40px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.grid {
+    margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 70vh;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cont2 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.cont3 {
+  font-size: 1rem;
+  color: rgb(173, 174, 174);
+  margin-bottom: 50px;
+}
+button {
+  color: white;
+  border: none;
+  background-color: #22bc7e;
+  padding: 10px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.cont5 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.inline2 {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  position: relative;
+  top: -52px;
+  opacity: 0.7;
+}
+.cont4 {
+  margin-top: -53px;
+}
+.cont6 {
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.section2{
+    display: flex;
+    justify-content: end;
+    align-self: self-end;
+}
+.img1{
+    position: relative;
+    left: 354px;
+
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+}
+.img2{
+    position: relative;
+    top: 100px;
+    right: 10px;
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+}
+.img3{
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+
+}
